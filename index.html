@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="icon" type="imagem/png" href="./assets/img/favicon.png">
+
+    <!--=============== BOXICONS ===============-->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Vagas - Interlitrader</title>
+</head>
+
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">
+                Interlitrader
+            </a>
+            <div class="nav__menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class='bx bx-home-alt-2'></i>
+                            <span>Página Inicial</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#popular" class="nav__link">
+                            <i class='bx bx-briefcase-alt'></i>
+                            <span>Vagas</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#sub" class="nav__link">
+                            <i class='bx bx-folder-minus'></i>
+                            <span>Provas Técnicas</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#value" class="nav__link">
+                            <i class='bx bx-group'></i>
+                            <span>Sobre</span>
+                        </a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#ft" class="nav__link">
+                            <i class='bx bx-phone'></i>
+                            <span>Contato</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+            <i class='bx bx-moon' id="theme-button"></i>
+            <a href="#" class="button nav__button">
+                Entre
+            </a>
+        </nav>
+
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        Praticidade <br> na palma da sua <br> Mão
+                    </h1>
+                    <p class="home__description">Um novo jeito de
+                        encontrar vagas!
+                    </p>
+
+                    <form action="" class="home__search">
+                        <i class='bx bx-search-alt-2'></i>
+                        <input type="search" placeholder="Pesquisar por vagas" class="home__search-input">
+                        <button class="button">Pesquisar</button>
+                    </form>
+                    <div class="home__value">
+                        <div>
+                            <h1 class="home__value-number">
+                                90%
+                            </h1>
+                            <span class="home__value-description">
+                                Gerenciamento <br> mais rápido.
+                            </span>
+                            <h1 class="home__value-number">
+                                80%
+                            </h1>
+                            <span class="home__value-description">
+                                Redução <br> de problemas de gestão.
+                            </span>
+                            <h1 class="home__value-number">
+                                85%
+                            </h1>
+                            <span class="home__value-description">
+                                Aproveitamento <br> do tempo de gerenciamento.
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="home__images">
+                    <div class="home__orbe"></div>
+
+                    <div class="home__img">
+                        <img src="./assets/img/home.png " alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__img">
+                    <img src="./assets/img/logo1.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logo2.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logo3.png" alt="">
+                </div>
+                <div class="logos__img">
+                    <img src="./assets/img/logo4.png" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== POPULAR ====================-->
+        <section class="popular section" id="popular">
+
+            <div class="container">
+                <span class="section_subtitle">Melhor Escolha</span>
+                <h2 class="section__title">
+                    Relatos de Profissionais <span>.</span>
+                </h2>
+
+                <div class="popular__container swiper">
+                    <div class="swiper-wrapper">
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/img/homi.png" alt="." class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">Evandro Dias</h2>
+                                <h3 class="popular__title">
+                                    Desenvolvedor Front End
+                                </h3>
+                                <p class="popular__description">
+                                    Consegui meu primeiro emprego após de um mês de me cadastrar na plataforma.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/img/muier.jpg" alt="." class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">Melissa Meneses</h2>
+                                <h3 class="popular__title">
+                                    Desenvolvedora Back End
+                                </h3>
+                                <p class="popular__description">
+                                    Consegui meu primeiro emprego após fazer uma prova técnica da T-Systems.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/img/mulher.jpg" alt="." class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">Maria Clara</h2>
+                                <h3 class="popular__title">
+                                    UX/UI Designer
+                                </h3>
+                                <p class="popular__description">
+                                    Uma empresa viu meu portfolio e simplesmente adorou, obrigado Interlitrader!.
+                                </p>
+                            </div>
+                        </article>
+                        <article class="popular__card swiper-slide">
+                            <img src="./assets/img/homem01.jpg" alt="." class="popular__img">
+
+                            <div class="popular__data">
+                                <h2 class="popular__price">Harold Hansami</h2>
+                                <h3 class="popular__title">
+                                    QA
+                                </h3>
+                                <p class="popular__description">
+                                    Eu amo esta plataforma, foi com a ajuda deles que consegui meu primeiro trabalho!.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-button-next">
+                        <i class='bx bx-chevron-right'></i>
+                    </div>
+                    <div class="swiper-button-prev">
+                        <i class='bx bx-chevron-left'></i>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== VALUE ====================-->
+        <section class="value section" id="value">
+            <div class="value__container container grid">
+                <div class="value__image">
+                    <div class="value__orbe"></div>
+                    <div class="value__img">
+                        <img src="./assets/img/valores.png" alt="">
+                    </div>
+                </div>
+                <div class="value__content">
+                    <div class="value__data">
+                        <span class="section__subtitle">Nossos Valores</span>
+                        <h2 class="section__title">
+                            Valores que são prezados<span>.</span>
+                        </h2>
+                        <p class="value__description">
+                            Nós sempre prezamos pela praticidade e facilidade dos usuários ao acessar nossa plataforma.
+                        </p>
+                    </div>
+                    <div class="value__accordion">
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-check-shield'></i>
+                                <h3 class="value__accordion-title">
+                                    Segurança
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Seus dados são tratados e armazenados com total segurança.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bxs-bar-chart-alt-2'></i>
+                                <h3 class="value__accordion-title">
+                                    Praticidade
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Encontre sua vaga no menor tempo possível!
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="value__accordion-item">
+                            <header class="value__accordion-header">
+                                <i class='bx bx-book-bookmark'></i>
+                                <h3 class="value__accordion-title">
+                                    Conhecimento
+                                </h3>
+                                <div class="value__accordion-arrow">
+                                    <i class='bx bxs-down-arrow'></i>
+                                </div>
+                            </header>
+
+                            <div class="value__accordion-content">
+                                <p class="value__accordion-description">
+                                    Saiba dos benefícios da vaga que você possui interesse e pratique seus aprendizados
+                                    com nossas provas técnicas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!--==================== CONTACT ====================-->
+        
+        <!--==================== SUBSCRIBE ====================-->
+        <section class="subscribe section" id="sub">
+            <div class="subscribe__container container">
+                <h1 class="subscribe">
+                    Compre nosso plano mensal
+                </h1>
+                <p class="subscribe__description">
+                    Com nosso plano mensal, você terá vários benefícios!
+                </p>
+                <a href="#" class="button subscribe__button">
+                    Comprar agora
+                </a>
+            </div>
+
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section" id="ft">
+        <div class="foooter__container container grid">
+            <div>
+                <a href="" class="footer__logo">
+                    Interlitrader
+                </a>
+                <p class="footer__description">
+                    Seu problema, é nossa solução!
+                </p>
+            </div>
+
+            <div class="footer__content">
+                <div>
+                    <h3 class="footer_title">
+                        Sobre
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Sobre nós</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Vagas</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Atualizações e novidades</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer_title">
+                        Empresa
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Nossa ética</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Capital</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Segurança</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer_title">
+                        Suporte
+                    </h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Central de Suporte</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Contate-nos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer_title">
+                        Nos siga
+                    </h3>
+                    <ul class="footer__social">
+                        <a href="https://facebook.com/" target="_blank" class="footer__social-link">
+                            <i class="bx bxl-facebook-circle"></i>
+                        </a>
+                        <a href="https://instagram.com/" target="_blank"  class="footer__social-link">
+                            <i class="bx bxl-instagram-alt"></i>
+                        </a>
+                        <a href="https://pinterest.com/" target="_blank"  class="footer__social-link">
+                            <i class="bx bxl-pinterest"></i>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="footer__info container">
+            <span class="footer__copy">
+                &#169; Interlitrader. Todos direitos reservados
+            </span>
+            <div class="footer__privacy">
+                <a href="#">Termos de segurança</a>
+                <a href="#">Política de privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a href=""  class="scrollup" id="scroll-up">
+        <i class="bx bx-chevrons-up"></i>
+    </a>
+
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
