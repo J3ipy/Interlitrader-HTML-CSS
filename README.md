@@ -1,2 +1,0 @@
-# Interlitrader
-Projeto do SAEP
